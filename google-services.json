@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590166497210",
+    "project_id": "telone-6c888",
+    "storage_bucket": "telone-6c888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590166497210:android:b5c569e2277fcd0a662f83",
+        "android_client_info": {
+          "package_name": "com.abinash.telone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxQhO3BtBYYS3ULtNCgN_yH-dikbQ-X1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

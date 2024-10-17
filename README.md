@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+<!-- eas build then select android -->
+<!-- eas config -->
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<!-- Keystore
+Type                JKS
+Key Alias           5299d47a482b3d8feba733eb74f705e2
+MD5 Fingerprint     46:FD:04:6C:B6:BC:2F:3F:3C:F5:1E:EF:D9:5D:8E:16
+SHA1 Fingerprint    BA:B7:85:79:F4:BD:A9:22:47:22:3E:CD:3A:B8:31:32:E1:E9:8E:02
+SHA256 Fingerprint  58:6B:C7:0E:C2:AA:3A:86:EB:04:56:79:CD:19:18:1C:9C:8B:F5:6D:50:1E:9E:09:0A:53:1B:2C:86:80:F4:06 -->
 
-## Get started
+<!-- or else you may check by following cmd  -->
 
-1. Install dependencies
+<!-- cd android && ./gradlew singingReport -->
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<!-- npm i @react-native-google-signin/google-sign -->
+<!-- @raiden167f/react-native-alphabet-list  -->
+<!-- react-native-redash@16.0.11  -->
+<!-- react-fast-compare  -->
+<!-- react-native-mmkv zustand -->
+<!-- socket.io-client  -->
+<!-- expo-notifications  -->
+<!-- expo-device  -->
+<!-- jwt-decode  -->
+<!-- react-native-responsive-fontsize  -->
+<!-- expo-dev-client  -->
