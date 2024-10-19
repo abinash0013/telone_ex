@@ -3,10 +3,21 @@ import LottieView from "lottie-react-native";
 import { siginStyles } from "@/styles/signinStyles";
 import CustomerSafeAreaView from "@/components/ui/CustomerSafeAreaView";
 import CustomText from "@/components/ui/CustomText";
-import { Image, TouchableOpacity } from "react-native";
+import { Image, Text, TouchableOpacity } from "react-native";
+import { signInWithGoogle } from "@/service/api/authService";
+import { useRouter } from "expo-router";
 
 const Page = () => {
-  const handleSignin = async () => {};
+  const router = useRouter();
+  const handleSignin = async () => {
+    // await signInWithGoogle();
+    router.push("/home");
+  };
+
+  const handleSignup = async () => {
+    router.push("/signup");
+  };
+
   return (
     <CustomerSafeAreaView style={siginStyles.container}>
       <LottieView
@@ -29,6 +40,9 @@ const Page = () => {
         <CustomText style={siginStyles.loginBtnText}>
           Sign in with Google
         </CustomText>
+      </TouchableOpacity>
+      <TouchableOpacity style={siginStyles.loginBtn} onPress={handleSignup}>
+        <Text style={{ color: "red" }}>Sign in with Google</Text>
       </TouchableOpacity>
     </CustomerSafeAreaView>
   );
